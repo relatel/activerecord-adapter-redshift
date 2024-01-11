@@ -13,7 +13,7 @@ Usage
 For Rails 7, write following in Gemfile:
 
 ```ruby
-gem 'activerecord7-redshift-adapter', git: 'https://github.com/pennylane-hq/activerecord7-redshift-adapter.git'
+gem 'activerecord7-redshift-adapter-pennylane'
 ```
 
 In database.yml
