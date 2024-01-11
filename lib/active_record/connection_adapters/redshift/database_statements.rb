@@ -174,6 +174,7 @@ module ActiveRecord
             ActiveRecord::Result.new(fields, result.values, types)
           end
         end
+        alias internal_exec_query exec_query
 
         def exec_delete(sql, name = 'SQL', binds = [])
           execute_and_clear(sql, name, binds, &:cmd_tuples)
